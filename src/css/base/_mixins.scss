@@ -1,0 +1,34 @@
+@mixin transition($prop: all, $time: 0.3s, $ease: ease-in-out) {
+  transition: $prop $time $ease;
+}
+
+@mixin placeholder($color, $opacity, $font-size, $font-family) {
+  &::-webkit-input-placeholder {
+  color: $color;
+  opacity: $opacity;
+  font-size: $font-size;
+  font-family: $font-family;
+  text-transform: none;
+  }
+  &:-moz-placeholder {
+  color: $color;
+  opacity: $opacity;
+  text-transform: none;
+  font-size: $font-size;
+  font-family: $font-family;
+  }
+  &::-moz-placeholder {
+  color: $color;
+  opacity: $opacity;
+  text-transform: none;
+  font-size: $font-size;
+  font-family: $font-family;
+  }
+  &:-ms-input-placeholder {
+  color: $color;
+  opacity: $opacity;
+  text-transform: none;
+  font-size: $font-size;
+  font-family: $font-family;
+  }
+}

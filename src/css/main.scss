@@ -1,7 +1,8 @@
 // BASE
-@import "./base/_reset.scss";
-@import "./base/_mixins.scss";
-@import "./base/_base.scss";
+@import "./base/_reset";
+@import "./base/_mixins";
+@import "./base//colors";
+@import "./base/_base";
 
 // SECTIONS
-@import "./sections/_header.scss";
+@import "./sections/_header";
